@@ -1,0 +1,119 @@
+body {
+  /* min-height: 2000px; */
+  font-family: "Poppins", sans-serif;
+}
+.produk {
+  padding-left: 2rem;
+}
+.produk .row {
+  display: flex;
+}
+.produk .row .produk-img {
+  flex: 1 1 45rem;
+}
+.produk .row .produk-img img {
+  width: 25%;
+}
+.produk .row .content h4 {
+  font-size: 1.8rem;
+  margin-top: -15rem;
+  text-align: center;
+  margin-right: 10rem;
+}
+.produk .row .content h2 {
+  font-size: 1.8rem;
+  margin-top: 0rem;
+  text-align: center;
+  margin-right: 15.9rem;
+  color: orange;
+}
+.produk .row center {
+  margin-right: 0rem;
+  color: #c7c9d9;
+}
+.produk .row .content p {
+  text-align: center;
+  margin-right: 9.5rem;
+  font-size: 1rem;
+}
+
+.produk .row .detail {
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: -5rem;
+}
+.produk .row .detail h5 {
+  text-align: center;
+  margin-right: 25rem;
+}
+.produk .row .detail p {
+  text-align: left;
+  margin-left: 26.9rem;
+}
+.produk .row .spesifikasi h5 {
+  text-align: center;
+  margin-left: 3rem;
+}
+.produk .row .kelengkapan h5 {
+  text-align: center;
+  margin-left: 4.7rem;
+}
+.beli span {
+  color: black;
+  float: right;
+  font-size: 1.3rem;
+}
+.ulasan .row h1 {
+  font-size: 5rem;
+}
+.ulasan .row span {
+  font-size: 1.5rem;
+  color: #c7c9d9;
+}
+.ulasan .row p {
+  font-weight: 700;
+}
+.rating .row span {
+  color: gray;
+}
+.komentar .row h5 {
+  text-align: center;
+  margin-top: -20rem;
+}
+.komentar .row h6 {
+  text-align: center;
+  margin-top: -16rem;
+  padding-right: 14rem;
+}
+.komentar .row p {
+  text-align: center;
+  margin-top: -14.5rem;
+  padding-right: 4.4rem;
+}
+footer {
+  text-align: center;
+  background-color: #f9f9f9;
+  margin-top: 4rem;
+}
+footer .contact {
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+footer .socials {
+  padding: 1rem;
+}
+footer h4 {
+  text-align: center;
+  padding-top: 4rem;
+}
+footer .socials a {
+  margin: 1 rem;
+}
+footer .socials a:hover {
+  color: orange;
+}
+footer .credit a {
+  color: orange;
+  font-weight: 700;
+  text-decoration: none;
+}

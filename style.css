@@ -1,0 +1,31 @@
+body {
+  min-height: 1000px;
+  font-family: "Poppins", sans-serif;
+}
+footer {
+  text-align: center;
+  background-color: #f9f9f9;
+  margin-top: 4rem;
+}
+footer .contact {
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+footer .socials {
+  padding: 1rem;
+}
+footer h4 {
+  text-align: center;
+  padding-top: 4rem;
+}
+footer .socials a {
+  margin: 1 rem;
+}
+footer .socials a:hover {
+  color: orange;
+}
+footer .credit a {
+  color: orange;
+  font-weight: 700;
+  text-decoration: none;
+}
